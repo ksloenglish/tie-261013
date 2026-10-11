@@ -176,7 +176,7 @@ def slide_body(slide: dict, current: str) -> str:
         return f'''<p><a class="access-url" href="{SCHOOL_URL}" target="_blank" rel="noopener noreferrer">kslo.tech/nb-teachers</a></p>{list_numbered(slide['points'], True)}<div class="button-row">{button(current,SCHOOL_URL,'Open the school access page',external=True)}</div>'''
     if kind == 'setup':
         links = ''.join(resource(current, item['title'], item['file']) for item in slide['downloads'])
-        return list_numbered(slide['points']) + f'<section class="resource-list" aria-label="Workshop document downloads">{links}</section>'
+        return list_numbered(slide['points']) + f'<section class="resource-list workshop-downloads" aria-label="Workshop document downloads">{links}</section>'
     if kind == 'explore-activity':
         return '<div class="split"><div>' + list_numbered(slide['points']) + '</div>' + shot(current, slide['image'], 'The Explore (探索) button in the Blueprint notebook’s Sources panel') + '</div>'
     if kind == 'comparison':

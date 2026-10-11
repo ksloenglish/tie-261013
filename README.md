@@ -23,7 +23,15 @@ Python 3.10+ is sufficient. No Node packages, database, AI service or login are 
 
 ## GitHub Pages
 
-The intended destination is `https://ksloenglish.github.io/tie-261013/`. Upload the contents of `site/` to the GitHub Pages publishing directory, preserving subdirectories. Every internal link and asset reference is relative, so nested pages work at `/tie-261013` without a client-side fallback or rewriting rules. `.nojekyll` is supplied.
+The destination is `https://ksloenglish.github.io/tie-261013/`. Source code lives on `main`; GitHub Pages serves the static-only `gh-pages` branch from its root. Every internal link and asset reference is relative, so nested pages work at `/tie-261013` without a client-side fallback or rewriting rules. `.nojekyll` is supplied. No custom GitHub Actions workflow is required.
+
+After reviewing source changes, rebuild and run the checks, commit them on `main`, and push `main`. Then update the publishing branch without rewriting history:
+
+```sh
+git subtree split --prefix=site -b gh-pages
+git push origin gh-pages:refs/heads/gh-pages
+python3 scripts/verify_live.py
+```
 
 The public site includes only the approved workshop content and supplied public documents, not a private Notebook link, student work or sign-in credentials. Official reference links direct participants to the applicable documents; teachers must add their own subject notes where indicated.
 

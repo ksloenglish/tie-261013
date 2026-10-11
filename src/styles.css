@@ -8,3 +8,8 @@
 @media(max-width:380px){.topbar{padding:0 14px;gap:9px}.wordmark{width:145px}.main{padding-left:19px;padding-right:19px}.menu-button{padding:7px 9px}.brand img{width:30px;height:30px}h1{font-size:2.1rem}.page-meta .eyebrow{font-size:8px}.prompt-toolbar h2{font-size:13px}.copy-button{padding:8px 9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 @media print{.topbar,.sidebar,.contents-dialog,.page-nav,.copy-button,.toast,.print-page,.button-row,.prompt-search{display:none!important}.main-shell{margin-left:0}.main{padding:0;max-width:none;min-height:0}.page-meta{margin:0 0 20px}.page-heading h1{font-size:28pt}.prompt-box,.context-section,.resource-link,.practice-step{break-inside:avoid}.prompt-box pre{font-size:10pt}.prompt-box pre[lang=zh-Hant]{font-size:11pt}.template-details{display:none}.site-footer{font-size:9pt}.split{display:block}.shot{max-width:65%;margin-top:20px}.table-wrap{overflow:visible;margin-bottom:30px}.format-table{min-width:0}.button{color:var(--ink);background:transparent;border-color:var(--ink)}body{background:#fff}}
+
+/* Explicit action labels for the workshop documents on page 8. */
+.workshop-downloads .resource-title{font-size:clamp(1.25rem,2.2vw,1.6rem);color:var(--accent-text);font-weight:700}
+.workshop-downloads .resource-link{padding-top:26px;padding-bottom:26px}
+.workshop-downloads .resource-arrow{font-size:32px;color:var(--accent-text)}
