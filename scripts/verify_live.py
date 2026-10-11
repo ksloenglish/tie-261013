@@ -15,7 +15,8 @@ BASE = 'https://ksloenglish.github.io/tie-261013/'
 DEADLINE = 480
 start = time.monotonic()
 last_progress = start
-expected = (SITE/'index.html').read_bytes()
+PROBE = sys.argv[1] if len(sys.argv) > 1 else 'index.html'
+expected = (SITE/PROBE).read_bytes()
 
 def fetch(path: str) -> bytes:
     url = BASE + quote(path, safe='/-_.~')
@@ -27,11 +28,11 @@ def fetch(path: str) -> bytes:
 while True:
     elapsed = time.monotonic()-start
     try:
-        actual = fetch('index.html')
+        actual = fetch(PROBE)
         if actual == expected:
-            print(f'Published homepage matches the approved site after {elapsed:.0f}s.',flush=True)
+            print(f'Published {PROBE} matches the approved site after {elapsed:.0f}s.',flush=True)
             break
-        state = 'homepage not yet the expected version'
+        state = 'changed page not yet the expected version'
     except Exception as error:
         state = type(error).__name__ + ': ' + str(error)[:120]
     print(f'GitHub Pages: {state}; elapsed {elapsed:.0f}s; last progress {time.monotonic()-last_progress:.0f}s ago.',flush=True)
