@@ -1,0 +1,124 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Workshop overview"
+    },
+    {
+      "path": "/pages/02/",
+      "title": "What makes Notebook different"
+    },
+    {
+      "path": "/pages/03/",
+      "title": "Eight Studio tools"
+    },
+    {
+      "path": "/pages/04/",
+      "title": "School access"
+    },
+    {
+      "path": "/pages/05/",
+      "title": "Enterprise vs retail"
+    },
+    {
+      "path": "/pages/06/",
+      "title": "Data safety"
+    },
+    {
+      "path": "/pages/07/",
+      "title": "Feature rollouts"
+    },
+    {
+      "path": "/pages/08/",
+      "title": "Create your notebook"
+    },
+    {
+      "path": "/pages/09/",
+      "title": "Better instructions"
+    },
+    {
+      "path": "/pages/10/",
+      "title": "Try Explore"
+    },
+    {
+      "path": "/pages/11/",
+      "title": "Make source searches specific"
+    },
+    {
+      "path": "/pages/12/",
+      "title": "Specify the answer format"
+    },
+    {
+      "path": "/pages/13/",
+      "title": "Generate, customise, compare"
+    },
+    {
+      "path": "/pages/14/",
+      "title": "Share on Padlet"
+    },
+    {
+      "path": "/pages/15/",
+      "title": "Ten useful prompts"
+    },
+    {
+      "path": "/pages/16/",
+      "title": "Example 1: situation & sources"
+    },
+    {
+      "path": "/pages/17/",
+      "title": "Example 1: English prompt"
+    },
+    {
+      "path": "/pages/18/",
+      "title": "Example 1: Chinese prompt"
+    },
+    {
+      "path": "/pages/19/",
+      "title": "Q&A & next steps"
+    },
+    {
+      "path": "/prompts/01/",
+      "title": "Check materials against HKDSE requirements"
+    },
+    {
+      "path": "/prompts/02/",
+      "title": "Turn an HKEAA briefing into revision-teaching notes"
+    },
+    {
+      "path": "/prompts/03/",
+      "title": "Plan an HKDSE lesson with an exit ticket"
+    },
+    {
+      "path": "/prompts/04/",
+      "title": "Support different levels—keep the same learning goal"
+    },
+    {
+      "path": "/prompts/05/",
+      "title": "Draft HKDSE-style practice and a separate answer key"
+    },
+    {
+      "path": "/prompts/06/",
+      "title": "Turn fictional errors into feedback and reteaching"
+    },
+    {
+      "path": "/prompts/07/",
+      "title": "Audit a teaching or assessment draft before use"
+    },
+    {
+      "path": "/prompts/08/",
+      "title": "Turn a long EDB document into a staff briefing"
+    },
+    {
+      "path": "/prompts/09/",
+      "title": "Extract actions, dates and unanswered questions"
+    },
+    {
+      "path": "/prompts/10/",
+      "title": "Compare official documents: updates or contradictions?"
+    },
+    {
+      "path": "/resources/",
+      "title": "Workshop downloads & links"
+    }
+  ]
+}

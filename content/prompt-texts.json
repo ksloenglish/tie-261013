@@ -1,0 +1,108 @@
+{
+  "prompts": [
+    {
+      "template_en": "I teach HKDSE [subject] to [level]. Compare our [topic] notes with the selected Curriculum and Assessment Guide and assessment framework.\n\nUse a four-column table: Official objective; Evidence in our notes; Coverage (clear / partial / not found); Suggested improvement. Cite both the guidance and our notes. End with three teaching priorities.\n\nKeep curriculum objectives separate from exam rules. Flag anything not stated in the sources. ‘Not found’ refers only to the selected notes.\n\nWrite in English.",
+      "template_zh": "我教授HKDSE[科目]，學生為[年級]。請把[課題]筆記與所選《課程及評估指引》及評核大綱比較。\n\n用四欄表格：官方目標；教材證據；涵蓋程度（清楚／部分／未找到）；改進建議。引用官方資料及筆記，最後列出三項備課重點。\n\n區分課程目標與考試規則。資料未有說明的內容，請指出。「未找到」只指所選筆記。\n\n請以繁體中文回答。",
+      "example_en": "Compare ‘S6 Reading Revision — teacher notes’ with the selected HKDSE English Language Curriculum and Assessment Guide and assessment framework. Focus on reading comprehension and supporting answers with text evidence.\n\nUse a four-column table: Official objective; Evidence in our notes; Coverage (clear / partial / not found); Suggested improvement. Cite both the guidance and our notes. End with three revision-teaching priorities.\n\nKeep curriculum objectives separate from exam rules. Flag anything not stated in the sources. ‘Not found’ refers only to the selected notes.\n\nWrite in English.",
+      "example_zh": "請把「S6 Reading Revision — teacher notes」與所選HKDSE英文科《課程及評估指引》及評核大綱比較，集中於閱讀理解及以文本證據支持答案。\n\n用四欄表格：官方目標；教材證據；涵蓋程度（清楚／部分／未找到）；改進建議。引用官方資料及筆記，最後列出三項溫習教學重點。\n\n區分課程目標與考試規則。資料未有說明的內容，請指出。「未找到」只指所選筆記。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Use the selected HKEAA briefing and assessment guidance to prepare revision-teaching notes for [level] HKDSE [subject] on [skill]. State if no briefing is selected.\n\nUse four headings: Key advice; Teaching explanations and practice; Possible difficulties; Checking question and answer. Give up to four cited advice points, a short explanation and practice idea for each, two possible difficulties, and one checking question with an answer.\n\nLabel teaching suggestions separately. Only call an error a reported candidate pattern if the source says so.\n\nWrite in English.",
+      "template_zh": "請根據所選考評局簡報及評核指引，為HKDSE[科目][年級]整理[技能]的溫習教學筆記。如未選取簡報，請說明。\n\n用四個標題：重點建議；教學解釋及練習；可能困難；檢查問題及答案。列出最多四項有引用的建議，各附淺白解釋及練習構思，再列兩項可能困難及一道檢查題與答案。\n\n教學建議另作標示。只有資料明確指出的錯誤，才稱為已報告的考生表現。\n\n請以繁體中文回答。",
+      "example_en": "Use the selected HKEAA History briefing, assessment framework and source-based-task guidance to prepare S6 HKDSE History revision-teaching notes on source interpretation. State if no briefing is selected.\n\nUse four headings: Key advice; Teaching explanations and practice; Possible difficulties; Checking question and answer. Give up to four cited advice points, each with a plain-language explanation and a five-minute practice idea using our source-analysis task. Add two possible difficulties and one checking question with an answer.\n\nSeparate reported candidate errors from teaching hypotheses; label new practice as suggestions.\n\nWrite in English.",
+      "example_zh": "請根據所選考評局歷史科簡報、評核大綱及史料題指引，為HKDSE中六歷史科整理史料解讀的溫習教學筆記。如未選取簡報，請說明。\n\n用四個標題：重點建議；教學解釋及練習；可能困難；檢查問題及答案。列出最多四項有引用的建議，各附淺白解釋及以本校史料分析任務為基礎的五分鐘練習。再列兩項可能困難及一道檢查題與答案。\n\n區分已報告的考生錯誤與教學假設，新練習標示為建議。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Plan a 40-minute lesson for [level] HKDSE [subject] on [topic], using the selected notes and objectives. Class context: [prior knowledge and available resources].\n\nStart with three key concepts and two learning goals. Use a four-column lesson table: Minutes; Teacher actions/questions; Learner task/expected response; Check. Include a demonstration, guided practice and independent practice. Add three numbered exit-ticket questions and a separate answer key.\n\nCite subject explanations and label activities as teaching suggestions. Flag essential missing information.\n\nWrite in English.",
+      "template_zh": "請為HKDSE[科目][年級]，根據所選筆記及目標設計一節40分鐘的[課題]課堂。班別情況：[已有知識及可用資源]。\n\n先列三個重點概念及兩項學習目標。教學流程用四欄表格：分鐘；教師行動／提問；學生任務／預期回應；檢查。包括示範、引導及獨立練習，另列三道編號離堂小測題目及獨立答案。\n\n引用學科解釋，活動標示為教學建議，指出必要的資料缺口。\n\n請以繁體中文回答。",
+      "example_en": "Plan a 40-minute S4 HKDSE Biology lesson on osmosis using ‘S4 Biology — Osmosis’ and the selected curriculum objectives. This EMI class has varied prior knowledge, a projector and worksheets; no laboratory work.\n\nStart with three key concepts and two learning goals. Use a four-column table: Minutes; Teacher actions/questions; Learner task/expected response; Check. Include a source-diagram demonstration, guided practice and independent application. Add three numbered exit-ticket questions and a separate answer key.\n\nCite biological explanations, label activities as suggestions and explain difficult terms simply.\n\nWrite in English.",
+      "example_zh": "請為HKDSE中四生物科，根據「S4 Biology — Osmosis」及所選課程目標設計一節40分鐘的滲透作用課堂。這是英語授課班，已有知識不同，有投影機及工作紙，不做實驗。\n\n先列三個重點概念及兩項目標。用四欄表格：分鐘；教師行動／提問；學生任務／預期回應；檢查。包括資料圖像示範、引導練習及獨立應用，另列三道編號離堂小測題目及獨立答案。\n\n引用生物學解釋，活動標示為建議，淺白解釋較難術語。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Use the selected [topic] materials to plan support for [level] HKDSE [subject]. Keep this shared learning goal: [goal].\n\nUse a three-column overview table: Version; Support/challenge; Task idea. Plan A guided understanding, B application/analysis and C evaluation/creation. Fully draft A only: short instructions, vocabulary help, one worked step and two numbered practice items with answer spaces. Put explanations and source citations in a separate Teacher key.\n\nTreat versions as adjustable support, not ability labels. Label new tasks as teaching suggestions.\n\nWrite in English.",
+      "template_zh": "請為HKDSE[科目][年級]，用所選[課題]教材設計不同程度支援，共同目標是[目標]。\n\n概覽用三欄表格：版本；支援／挑戰；任務構思。規劃A引導理解、B應用分析、C評估創作。只完整編寫A版：簡短指示、詞彙支援、一項示範步驟及兩道編號練習，留作答空位。另列教師答案、解釋及引用。\n\n版本是可調整的支援，不是能力標籤；新任務標示為教學建議。\n\n請以繁體中文回答。",
+      "example_en": "Use ‘S5 Economics — Demand and Supply’ to plan support for S5 HKDSE Economics. The shared goal is distinguishing a movement along a demand curve from a shift of that curve.\n\nUse a three-column overview: Version; Support/challenge; Task idea. Plan A guided understanding, B application/analysis and C evaluation/creation. Fully draft A only, with plain-English vocabulary help, one worked step and two numbered items with answer spaces. Put explanations and citations in a separate Teacher key.\n\nPreserve source definitions and diagram relationships. Treat versions as support, not ability labels.\n\nWrite in English.",
+      "example_zh": "請為HKDSE中五經濟科，用「S5 Economics — Demand and Supply」設計學習支援，共同目標是區分沿需求曲線的移動與需求曲線的移動。\n\n用三欄概覽：版本；支援／挑戰；任務構思。規劃A引導理解、B應用分析、C評估創作。只完整編寫A版，包含淺白詞彙支援、一項示範步驟及兩道編號練習，留作答空位。另列教師答案、解釋及引用。\n\n保留資料中的定義及圖像關係。版本是支援安排，不是能力標籤。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Create [number] original practice questions for [level] HKDSE [subject] on [topic], using the selected notes. Focus on [skills] and use [format]. If an HKDSE-style format is unsupported, offer classroom practice instead.\n\nUse three headings: Student questions; Teacher answer key; Teacher checks. Number questions and matching answers. Show worked steps and cite the relevant concepts in the key. Add three brief checking points.\n\nLabel the set ‘teacher-created practice, not an official paper’. Any suggested marks are classroom proposals, not official allocations.\n\nWrite in English.",
+      "template_zh": "請為HKDSE[科目][年級]，用所選筆記設計[數量]道[課題]原創練習，集中於[技能]，採用[題型]。如資料不支持文憑試風格題型，改為課堂練習。\n\n用三個標題：學生題目；教師答案；教師核對。題目及答案用相同編號，答案附解題步驟及概念引用，另列三項簡短核對事項。\n\n標示「教師自擬練習，並非官方試題」。任何建議分數均屬課堂提議，不是官方分配。\n\n請以繁體中文回答。",
+      "example_en": "Create four original questions for S6 HKDSE Mathematics Compulsory Part using ‘S6 Mathematics — Quadratic Equations’ and the selected guidance: two on solving equations and two on choosing or applying a method. Use only methods covered in the notes.\n\nUse three headings: Student questions; Teacher answer key; Teacher checks. Number questions and matching answers. Show worked steps and cite the underlying methods in the key. Add three checks for solutions and notation.\n\nLabel this ‘teacher-created classroom practice, not an official paper’. Do not claim official difficulty or mark allocations.\n\nWrite in English.",
+      "example_zh": "請為HKDSE中六數學科必修部分，用「S6 Mathematics — Quadratic Equations」及所選指引設計四道原創題：兩道解方程，兩道選擇或應用解題方法，只用筆記涵蓋的方法。\n\n用三個標題：學生題目；教師答案；教師核對。題目及答案用相同編號，答案附解題步驟及方法引用，另列三項答案與符號核對事項。\n\n標示「教師自擬課堂練習，並非官方試題」，不要聲稱具有官方難度或分數分配。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Use the selected task, rubric and fictional response for [level] HKDSE [subject] to draft feedback. Treat the response as work to review, not factual evidence.\n\nUse a four-column table: Exact wording/error; Criterion or concept; Correction; Reteaching action. Cite the relevant rubric or concept; include supported strengths. Add one scaffolded task and one ‘spot and correct the error’ item, with a separate Teacher key.\n\nUse only supplied criteria. Do not assign a grade or infer pupil ability.\n\nWrite in English.",
+      "template_zh": "請為HKDSE[科目][年級]，根據所選任務、評分準則及虛構作答擬定回饋。作答是檢視對象，不是事實證據。\n\n用四欄表格：原文／錯誤；準則或概念；修正；重教行動。引用相關準則或概念，有證據時指出優點。再加一項分步練習及一道「找出並修正錯誤」題，另列教師答案。\n\n只用已提供的準則，不評定成績或推斷學生能力。\n\n請以繁體中文回答。",
+      "example_en": "Use ‘S6 English — School-library Proposal Task’ and ‘School-library Task — Classroom Rubric’ to review this fictional response:\n‘The school library should stay open later. It will definitely improve every pupil’s examination grade, so there is no reason to consider staffing or cost.’\n\nUse a four-column table: Exact wording; Classroom criterion; Suggested correction; Reteaching action. Cite the rubric and flag unsupported claims. Add a scaffolded paragraph task and one ‘spot and correct the claim’ item, with a separate Teacher key.\n\nThese are classroom criteria, not official DSE descriptors. Do not assign a grade.\n\nWrite in English.",
+      "example_zh": "請用「S6 English — School-library Proposal Task」及「School-library Task — Classroom Rubric」，檢視以下虛構作答：\n‘The school library should stay open later. It will definitely improve every pupil’s examination grade, so there is no reason to consider staffing or cost.’\n\n用四欄表格：原文；課堂準則；修正建議；重教行動。引用準則，指出欠缺支持的聲稱。再加分步段落練習及一道「找出並修正聲稱」題，另列教師答案。\n\n這些是課堂準則，不是官方文憑試水平描述，請勿評定成績。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Check [draft] for [level] HKDSE [subject/topic] against the selected original references, not the draft itself.\n\nUse a four-column table: Draft wording; Issue type; Source evidence; Correction. Prioritise factual errors, unsupported claims and question–answer mismatches. Classify issues as ‘contradicts source’, ‘unsupported’ or ‘teacher judgement’, and cite the evidence. Flag leaked instructions/placeholders and sensitive content.\n\nEnd with two manual checks and a brief use / revise / reject recommendation. This is a review, not an accuracy guarantee.\n\nWrite in English.",
+      "template_zh": "請對照所選原始資料，檢查HKDSE[科目／課題][年級]的[草稿]，不要用草稿證明自己。\n\n用四欄表格：草稿措辭；問題類型；來源證據；修正。優先檢查事實錯誤、無支持聲稱及題目答案不符。分類為「與資料矛盾」、「未有支持」或「教師判斷」，並引用證據。指出誤成正文的指示／佔位字及敏感內容。\n\n最後列兩項人工核對事項及簡短使用／修改／不宜使用建議；這不是準確性保證。\n\n請以繁體中文回答。",
+      "example_en": "Check this intentionally flawed S4 HKDSE Biology draft against the original osmosis and diffusion notes:\n‘Osmosis means that any dissolved substance moves through any membrane until its concentration is equal everywhere.’\n\nUse a four-column table: Draft wording; Issue type; Source evidence; Correction. Classify issues as ‘contradicts source’, ‘unsupported’ or ‘teacher judgement’, with citations. Treat the draft as the checking target, not evidence.\n\nAdd one diagnostic question with a separate answer, two manual checks, and a brief use / revise / reject recommendation.\n\nWrite in English.",
+      "example_zh": "請對照原始滲透作用及擴散作用筆記，檢查以下刻意寫錯的HKDSE中四生物科草稿：\n‘Osmosis means that any dissolved substance moves through any membrane until its concentration is equal everywhere.’\n\n用四欄表格：草稿措辭；問題類型；來源證據；修正。分類為「與資料矛盾」、「未有支持」或「教師判斷」，並引用證據。草稿是檢視對象，不是證據。\n\n另加一道診斷題及獨立答案、兩項人工核對事項，以及簡短使用／修改／不宜使用建議。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Brief Hong Kong secondary-school teachers on the selected [official document]. Start with its purpose and up to three relevant sections with citations.\n\nThen use four headings: Main message; Teachers and teaching; School support; Questions to clarify. Use short bullets and keep the briefing within 250 words. Cite key statements.\n\nDistinguish requirements, recommendations and aspirations; label school suggestions separately. State if only an executive summary is selected.\n\nWrite in English.",
+      "template_zh": "請根據所選[官方文件]，為香港中學教師整理摘要。先列文件目的及最多三個相關章節，附引用。\n\n再用四個標題：主要訊息；教師及教學；學校支援；待釐清問題。用簡短要點，摘要約400字，引用重要陳述。\n\n區分要求、建議及願景，本校回應建議另作標示。如只有行政摘要，請註明。\n\n請以繁體中文回答。",
+      "example_en": "Brief Hong Kong secondary-school teachers on the selected ‘Blueprint for Digital Education Development in Primary and Secondary Schools’. Start with its purpose and up to three relevant sections with citations.\n\nUse four headings: Main message; Teachers and teaching; School support; Questions to clarify. Use short bullets and keep the briefing within 250 words. Cite key statements.\n\nDistinguish requirements, recommendations and aspirations; label school suggestions separately. State if only the executive summary is selected.\n\nWrite in English.",
+      "example_zh": "請根據所選《中小學數字教育發展藍圖》，為香港中學教師整理摘要。先列文件目的及最多三個相關章節，附引用。\n\n用四個標題：主要訊息；教師及教學；學校支援；待釐清問題。用簡短要點，摘要約400字，引用重要陳述。\n\n區分要求、建議及願景，本校回應建議另作標示。如只有行政摘要，請註明。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Review [official document/circular] for a Hong Kong secondary-school panel discussion.\n\nUse a six-column table: Source statement; Status (requirement / recommendation / example / aspiration); Applies to; Stated date/condition; Citation; Suggested school response. Keep entries brief. Preserve ‘may’, ‘should’ and ‘must’; write ‘not specified’ for missing details.\n\nEnd with three questions for management and one small pilot idea. Label proposals as suggestions, not school decisions.\n\nWrite in English.",
+      "template_zh": "請檢視[官方文件／通函]，供香港中學科組討論。\n\n用六欄表格：文件陳述；性質（要求／建議／例子／願景）；適用對象；已列日期／條件；引用；學校回應建議。內容簡短，保留「可」、「應」、「必須」的分別，缺漏資料寫「未有說明」。\n\n最後列三個管理層問題及一項小規模試行構思。提議是建議，不是學校決定。\n\n請以繁體中文回答。",
+      "example_en": "Review the selected ‘Supplement II: Guide to Using AI in Teaching in Primary and Secondary Schools’ for our panel discussion. Focus on teacher preparation and checking AI-generated materials.\n\nUse a six-column table: Source statement; Status (requirement / recommendation / example / aspiration); Applies to; Stated date/condition; Citation; Suggested school response. Preserve ‘may’, ‘should’ and ‘must’; write ‘not specified’ for missing details.\n\nEnd with three questions for management and one small teacher-preparation pilot. Label proposals as suggestions, not EDB requirements or school decisions.\n\nWrite in English.",
+      "example_zh": "請檢視所選AI教學指南（附篇II），供科組討論，集中於教師備課及核對AI教材。\n\n用六欄表格：文件陳述；性質（要求／建議／例子／願景）；適用對象；已列日期／條件；引用；學校回應建議。保留「可」、「應」、「必須」的分別，缺漏資料寫「未有說明」。\n\n最後列三個管理層問題及一項備課小規模試行。提議是建議，不是教育局要求或學校決定。\n\n請以繁體中文回答。"
+    },
+    {
+      "template_en": "Compare [document A] and [document B] on [issue] for Hong Kong secondary schools.\n\nUse a five-column table: Issue; A statement and citation; B statement and citation; Relationship/uncertainty; Planning implication. Distinguish agreement, scope differences, explicit updates and genuine conflicts. Missing coverage is not a contradiction; a newer date alone does not establish replacement.\n\nEnd with two short lists: Usable for planning; Needs clarification. Label proposed actions as suggestions.\n\nWrite in English.",
+      "template_zh": "請從香港中學角度，比較[文件A]與[文件B]對[議題]的說明。\n\n用五欄表格：議題；A陳述及引用；B陳述及引用；關係／不確定之處；規劃啟示。區分共通點、範圍差異、明確更新及真正矛盾。未有提及不等於矛盾，日期較新不等於取代舊文件。\n\n最後列兩份簡短清單：可用於規劃；需要釐清。擬議行動標示為建議。\n\n請以繁體中文回答。",
+      "example_en": "Compare the full ‘Blueprint for Digital Education Development in Primary and Secondary Schools’ with ‘Supplement II: Guide to Using AI in Teaching in Primary and Secondary Schools’. Focus on Hong Kong secondary teachers’ preparation, professional development and checking AI materials.\n\nUse a five-column table: Issue; Blueprint statement and citation; Supplement statement and citation; Relationship/uncertainty; Planning implication. Distinguish scope differences, explicit updates and genuine conflicts. Silence is not a contradiction; do not assume one replaces the other.\n\nEnd with two short lists: Usable for planning; Needs clarification. Label school proposals as suggestions.\n\nWrite in English.",
+      "example_zh": "請比較完整版《中小學數字教育發展藍圖》與所選AI教學指南（附篇II），集中於香港中學教師備課、專業發展及核對AI教材。\n\n用五欄表格：議題；藍圖陳述及引用；附篇陳述及引用；關係／不確定之處；規劃啟示。區分範圍差異、明確更新及真正矛盾。未有提及不等於矛盾，不要假設一份取代另一份。\n\n最後列兩份簡短清單：可用於規劃；需要釐清。學校提議標示為建議。\n\n請以繁體中文回答。"
+    }
+  ],
+  "extras": [
+    [
+      "Focus on [section/topic]. Use four headings with up to three short bullets each. Keep citations and replace generic advice with labelled suggestions for Hong Kong teachers.\n\nWrite in English.",
+      "請集中於[章節／課題]，用四個標題，每個最多三個簡短要點。保留引用，把籠統意見改為香港教師可用的建議，並標示為建議。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Use a four-column table: Claim; Source statement and citation; Interpretation/suggestion; Uncertainty. Remove unsupported claims and flag missing evidence.\n\nWrite in English.",
+      "請用四欄表格：聲稱；來源陳述及引用；解讀／建議；不確定之處。刪除無支持聲稱，指出證據缺口。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Reformat as [five bullets / a table with named columns / numbered steps]. Keep facts, important conditions and citations unchanged.\n\nWrite in English.",
+      "請改成[五個要點／列明欄名的表格／編號步驟]，保留原有事實、重要條件及引用。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Help Hong Kong secondary teachers prepare materials. Use plain language and concise headings. Cite source facts, label suggestions and flag missing evidence. Follow my requested format.\n\nWrite in English.",
+      "請協助香港中學教師備課，使用淺白語言及簡短標題。引用來源事實，標示建議，指出證據缺口，依照我指定的格式。\n\n請以繁體中文回答。"
+    ]
+  ],
+  "studio": [
+    [
+      "Plan a Studio sample for [audience] on [topic]. Use labelled bullets: Purpose; Title; Three key points with citations; One point not to oversimplify. Separate facts from suggestions. Provide a text plan only.\n\nWrite in English.",
+      "請為[對象]規劃[課題]的Studio作品，用點列：用途；標題；三項重點及引用；一項不可過度簡化之處。區分事實與建議，只提供文字方案。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Create an infographic for a teacher explaining [topic] to [level] HKDSE [subject]. Show three key ideas, one contrast or process, and one checking question. Use short, readable labels and accurate source terminology. Keep layout instructions out of the image text.\n\nWrite in English.",
+      "請為HKDSE[科目][年級]製作[課題]資訊圖表，供教師講解。展示三個重點、一項對比或過程，以及一道檢查題。文字簡短易讀，保留準確術語，不要把版面指示印成正文。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Create a small question set for [level] HKDSE [subject] on [topic], focusing on [skill]. Base questions and answers on the selected teacher notes. Use clear wording. This is classroom practice, not an official examination.\n\nWrite in English.",
+      "請為HKDSE[科目][年級]製作[課題]簡短題目，聚焦[技能]，題目及答案依據所選教師筆記，措辭清晰。這是課堂練習，不是官方考試。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Create a teacher-facing infographic on the selected EDB [document]. Use four sections: Main message; Teachers; School support; Panel questions. Keep text short, distinguish requirements from recommendations, and label school suggestions. State if based only on an executive summary. Identify it as an AI workshop draft; keep layout instructions out of image text.\n\nWrite in English.",
+      "請根據所選教育局[文件]製作教師用資訊圖表，分四部分：主要訊息；教師；學校支援；科組問題。文字簡短，區分要求與建議，標示學校提議。如只有行政摘要，請註明。標示為AI工作坊草稿，不要把版面指示印成正文。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Draft five short slides for a Hong Kong secondary-school panel meeting on EDB [document]. Cover the main message, teachers, school support, uncertainties and discussion questions. Use concise bullets; distinguish document statements from school suggestions. State if based only on an executive summary. Identify it as an AI workshop draft; keep layout instructions out of slide text.\n\nWrite in English.",
+      "請根據教育局[文件]，為香港中學科組會議擬定五張簡短投影片，涵蓋主要訊息、教師、學校支援、待釐清事項及討論問題。用簡短要點，區分文件陳述與學校建議。如只有行政摘要，請註明。標示為AI工作坊草稿，不要把版面指示印成正文。\n\n請以繁體中文回答。"
+    ],
+    [
+      "Create an audio review for Hong Kong secondary teachers on [topic/document]. Cover three source-based points and one thing to check before teaching or panel discussion. Preserve important conditions and separate source statements from suggestions.\n\nWrite in English.",
+      "請為香港中學教師製作[課題／文件]語音摘要，涵蓋三項來源重點及一項教學或科組討論前須核對的事項。保留重要條件，區分來源陳述與建議。\n\n請以繁體中文回答。"
+    ]
+  ]
+}
