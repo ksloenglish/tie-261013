@@ -13,3 +13,108 @@
 .workshop-downloads .resource-title{font-size:clamp(1.25rem,2.2vw,1.6rem);color:var(--accent-text);font-weight:700}
 .workshop-downloads .resource-link{padding-top:26px;padding-bottom:26px}
 .workshop-downloads .resource-arrow{font-size:32px;color:var(--accent-text)}
+
+/* Prominent directional navigation: editorial typography, unmistakable actions. */
+.page-nav {
+  gap: 18px;
+  padding-top: 28px;
+}
+.page-nav a.page-nav-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  min-height: 116px;
+  padding: 22px 24px;
+  border: 2px solid var(--ink);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+  transition: background-color .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.page-nav a.page-nav-next {
+  justify-content: flex-end;
+  background: var(--accent-text);
+  border-color: var(--accent-text);
+  color: #fff;
+  text-align: right;
+}
+.page-nav .nav-copy {
+  min-width: 0;
+  flex: 1;
+}
+.page-nav .nav-direction {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .09em;
+  line-height: 1.25;
+  color: var(--accent-text);
+  margin-bottom: 9px;
+}
+.page-nav .nav-title {
+  display: block;
+  max-width: none;
+  font-size: 16px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  color: inherit;
+}
+.page-nav .page-nav-next .nav-direction {
+  color: #fff;
+}
+.page-nav .nav-arrow-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+  border-radius: 50%;
+  background: var(--accent-text);
+  color: #fff;
+}
+.page-nav .page-nav-next .nav-arrow-badge {
+  background: #fff;
+  color: var(--accent-text);
+}
+.page-nav .nav-arrow-badge svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  transition: transform .18s ease;
+}
+.page-nav a.page-nav-button:hover .nav-title {
+  color: inherit;
+}
+.page-nav a.page-nav-button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 5px;
+}
+@media (hover: hover) {
+  .page-nav a.page-nav-previous:hover {
+    background: #fff0e9;
+    border-color: var(--accent-text);
+    box-shadow: 0 4px 0 rgba(17,17,17,.10);
+  }
+  .page-nav a.page-nav-next:hover {
+    background: var(--ink);
+    border-color: var(--ink);
+    box-shadow: 0 4px 0 rgba(17,17,17,.12);
+  }
+  .page-nav a.page-nav-previous:hover svg { transform: translateX(-3px); }
+  .page-nav a.page-nav-next:hover svg { transform: translateX(3px); }
+}
+@media (max-width: 1000px) {
+  .page-nav a.page-nav-button { padding: 18px; gap: 14px; }
+  .page-nav .nav-arrow-badge { width: 46px; height: 46px; flex-basis: 46px; }
+  .page-nav .nav-arrow-badge svg { width: 27px; height: 27px; }
+  .page-nav .nav-title { font-size: 15px; }
+}
+@media (max-width: 620px) {
+  .page-nav { grid-template-columns: minmax(0,1fr); gap: 12px; padding-top: 24px; }
+  .page-nav a.page-nav-button { min-height: 94px; padding: 17px 20px; gap: 17px; }
+  .page-nav .nav-direction { font-size: 13px; margin-bottom: 6px; }
+  .page-nav .nav-title { font-size: 15px; }
+}

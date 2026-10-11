@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+from hashlib import sha256
 import json
 import posixpath
 import re
@@ -237,10 +238,13 @@ def page_navigation(current: str, number: int | None = None, prompt_number: int 
     else:
         left_url, left_title = slide_path(1), 'Workshop overview'
         right_url, right_title = slide_path(8), 'Create your Blueprint notebook'
-    return f'''<nav class="page-nav" aria-label="Page navigation"><a href="{href(current,left_url)}" data-page-previous><span class="nav-direction">← Previous</span><span class="nav-title">{esc(left_title)}</span></a><a href="{href(current,right_url)}" data-page-next><span class="nav-direction">Next →</span><span class="nav-title">{esc(right_title)}</span></a></nav>'''
+    left_icon = '<span class="nav-arrow-badge" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" focusable="false"><path d="M27 16H5M14 6L4 16l10 10" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>'
+    right_icon = '<span class="nav-arrow-badge" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" focusable="false"><path d="M5 16h22M18 6l10 10-10 10" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>'
+    return f'''<nav class="page-nav" aria-label="Page navigation"><a class="page-nav-button page-nav-previous" href="{href(current,left_url)}" data-page-previous>{left_icon}<span class="nav-copy"><span class="nav-direction">Previous</span><span class="nav-title">{esc(left_title)}</span></span></a><a class="page-nav-button page-nav-next" href="{href(current,right_url)}" data-page-next><span class="nav-copy"><span class="nav-direction">Next</span><span class="nav-title">{esc(right_title)}</span></span>{right_icon}</a></nav>'''
 
 
 def layout(current: str, title: str, content: str, number: int | None = None, prompt_number: int | None = None, detail: bool = False) -> str:
+    css_version = sha256((ROOT / 'src/styles.css').read_bytes()).hexdigest()[:12]
     section = 'Prompt library' if prompt_number else 'Participant companion'
     count = f'Prompt {prompt_number:02d} / 10' if prompt_number else f'Slide {number:02d} / 19' if number else 'Workshop resources'
     description = f'{title} — participant reference for the Gemini Notebook Workshop, HKMA K S Lo College Tech in Ed Task Force.'
@@ -250,7 +254,7 @@ def layout(current: str, title: str, content: str, number: int | None = None, pr
     content = content.replace('<div class="table-wrap"', '<p class="table-hint">Swipe the table to view all four column headings →</p><div class="table-wrap"')
     content = nojs_nav + content
     return f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{esc(description)}"><meta name="theme-color" content="#f8faf7"><title>{esc(title)} | Gemini Notebook Workshop</title><link rel="icon" type="image/png" href="{href(current,'assets/task-force-logo.png')}"><link rel="stylesheet" href="{href(current,'assets/styles.css')}"><script src="{href(current,'assets/app.js')}" defer></script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="{esc(description)}"><meta name="theme-color" content="#f8faf7"><title>{esc(title)} | Gemini Notebook Workshop</title><link rel="icon" type="image/png" href="{href(current,'assets/task-force-logo.png')}"><link rel="stylesheet" href="{href(current,'assets/styles.css')}?v={css_version}"><script src="{href(current,'assets/app.js')}" defer></script></head>
 <body><a class="skip-link" href="#main">Skip to content</a>
 <header class="topbar"><a class="brand" href="{href(current,slide_path(1))}" aria-label="Workshop overview"><img src="{href(current,'assets/task-force-logo.png')}" alt="Tech in Ed Task Force logo" width="34" height="34"><span class="brand-text">HKMA K S Lo College<span>Tech in Ed Task Force</span></span></a><span class="header-divider" aria-hidden="true"></span><a href="{href(current,slide_path(1))}" aria-label="Gemini Notebook Workshop overview"><img class="wordmark" src="{href(current,'assets/gemini-notebook-logo.svg')}" alt="Gemini Notebook" width="210" height="18"></a><div class="topbar-right"><span class="header-date">13 Oct 2026</span><button type="button" class="menu-button" data-open-menu aria-controls="contents-dialog" aria-expanded="false"><span class="menu-icon" aria-hidden="true"></span>Contents</button></div></header>
 <aside class="sidebar" aria-label="Workshop contents"><p class="eyebrow"><span class="orange-square" aria-hidden="true"></span>Workshop pages</p><label for="sidebar-search" class="skip-link">Search workshop pages</label><input id="sidebar-search" class="nav-search" type="search" data-filter="sidebar-nav" placeholder="Find a page…" aria-label="Search workshop pages">{sidebar_nav}{utility_links(current)}</aside>

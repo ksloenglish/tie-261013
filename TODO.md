@@ -11,3 +11,9 @@
 ## Evidence
 
 `python3 scripts/check_site.py` passes all 30 pages, relative links, copy targets, slide-point parity, exact bilingual examples, original PDF checksums and the 19-slide PowerPoint. All 35 preview page/download URLs return HTTP 200. Mobile views were inspected for the cover, format page and prompt example; desktop views were inspected for the Studio and prompt-index pages. Independent review identified small-label contrast and no-JavaScript direct-navigation issues; both are corrected and verified in the generated site. The user approved the public repository and publication. Repository connection completed, and the live site at https://ksloenglish.github.io/tie-261013/ passed exact-byte checks for 42 pages/assets/downloads. Page 8 now uses prominent Download Chinese version and Download English version action labels; the publishing update is verified with scripts/verify_live.py.
+
+## Navigation prominence update
+
+- [x] Make Previous and Next controls prominent on every slide, prompt and resource page, with large eye-catching arrow icons, clear button boundaries, accessible contrast and responsive touch-friendly sizing. Preserve all existing destinations and keyboard navigation, and publish the update to the established GitHub Pages site.
+
+The controls use bold SVG arrows in circular badges, a bordered white Previous button and a high-contrast orange Next button. Buttons stack on smaller phones and remain side by side on wider screens. All 30 pages retain their original link destinations and pass the existing content checks. Mobile page 8 and a desktop prompt-detail page were inspected for wrapping and button prominence. The stylesheet URL is content-versioned for returning visitors; live publication is checked with the existing verification script.
